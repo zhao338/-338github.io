@@ -1,0 +1,15 @@
+[本地计算机]
+│
+├─ 打开终端
+├─ cd /path/to/click-game  → 进入游戏文件夹
+│   ├─ index.html
+│   └─ assets/
+│       ├─ ad-icon.png
+│       └─ upgrade1.png...
+│
+└─ 执行 Git 命令：
+   git init      → 初始化本地仓库
+   git add .     → 添加所有文件
+   git commit -m "提交信息"  → 提交更改
+   git remote add origin [仓库URL] → 链接远程仓库
+   git push -u origin main → 推送代码
